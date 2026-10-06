@@ -1,0 +1,36 @@
+/* stijl.css - labo 3, tabblad (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+
+}
+body{
+    
+    background-color: tomato;
+    padding: 5rem;
+    font-family: arial;
+}
+h1{
+    background-color: gold;
+    width: 8rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    border-bottom: none;
+    
+}
+h2{
+    background-color: white;
+    width: 18rem;
+    padding: 1rem;
+    box-shadow: -5px 5px 0px black,
+                5px -5px 0px black;
+}
+h1,h2{
+    border: solid black 0.2rem;
+   box-shadow: -5px 5px 0px black;
+}
+
+
+
+
+/* === your rules === */

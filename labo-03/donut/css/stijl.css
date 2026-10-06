@@ -1,0 +1,22 @@
+/* stijl.css - labo 3, donut (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+
+}
+body{
+    background-color:white
+    ;
+    text-align: center;
+    
+}
+main{
+    background-color: #ec4b03;
+}
+
+h1{}
+
+
+
+
+/* === your rules === */
