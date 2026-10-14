@@ -1,0 +1,40 @@
+/* stijl.css - labo 4, kolommen (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+
+
+}
+div:nth-child(1) {
+    background-color:cyan  ;
+  
+}
+div:nth-child(2) {
+    background-color: PURPLE ;
+  
+}
+div:nth-child(3) {
+    background-color: darkblue ;
+
+}
+Body {
+    height: 100vh ;
+    padding: 10vh ;
+    text-align: center ;
+    font-family:arial ;
+    color: white ;
+
+  
+}
+main{
+    height: 100% ;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 3vh;
+}
+main div {
+   padding-top: 37vh ;
+}
+
+
+/* === your rules === */
